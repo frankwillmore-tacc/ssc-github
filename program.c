@@ -8,5 +8,7 @@ int main(int argc, char *argv[])
   // add your function here
   fn_FrankWillmore();
 
+  fn_JoshuaYuan();
+
   return 0;
 }
