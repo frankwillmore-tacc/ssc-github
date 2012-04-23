@@ -1,3 +1,7 @@
 
 Add a line here, if you like.
+ For the git pull command, you must specify you want to merge with the master branch as follows
+
+$ git pull git@github.com:frankwillmore-tacc/ssc-github.git master
+
 
