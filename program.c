@@ -12,5 +12,7 @@ int main(int argc, char *argv[])
 
   fn_DanAbeln();
 
+  fn_BradGooch();
+
   return 0;
 }
