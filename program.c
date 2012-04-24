@@ -14,5 +14,7 @@ int main(int argc, char *argv[])
 
   fn_BradGooch();
 
+  fn_BrentCovele();
+
   return 0;
 }
