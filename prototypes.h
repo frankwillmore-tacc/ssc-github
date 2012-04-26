@@ -9,3 +9,4 @@ void fn_BradGooch();
 void fn_BrentCovele();
 void fn_NikosVergos();
 void fn_ScottAlmond();
+void fn_JakeFisher();

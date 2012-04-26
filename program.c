@@ -20,5 +20,7 @@ int main(int argc, char *argv[])
   
   fn_ScottAlmond();
 
+  fn_JakeFisher();
+
   return 0;
 }
