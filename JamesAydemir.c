@@ -3,6 +3,6 @@
 
 void fn_JamesAydemir()
 {
-  printf("James Aydemir gets credit.\n");
+  printf("James Aydemir gets credit for not creating a segfault!\n");
 }
 
