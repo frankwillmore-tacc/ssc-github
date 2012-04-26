@@ -15,6 +15,9 @@ int main(int argc, char *argv[])
   fn_BradGooch();
 
   fn_BrentCovele();
+  
+  fn_NikosVergos();
+
 
   return 0;
 }
