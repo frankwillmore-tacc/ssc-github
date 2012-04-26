@@ -27,6 +27,9 @@ ScottAlmond.o: ScottAlmond.c prototypes.h
 JakeFisher.o: JakeFisher.c prototypes.h
 	gcc -c JakeFisher.c
 
+JamesAydemir.o JamesAydemir.c prototypes.h
+	gcc -c JamesAydemir.c
+
 clean:  
 	rm -f *.o
 	rm program
