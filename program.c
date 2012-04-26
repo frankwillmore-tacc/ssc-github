@@ -17,7 +17,8 @@ int main(int argc, char *argv[])
   fn_BrentCovele();
   
   fn_NikosVergos();
-
+  
+  fn_ScottAlmond();
 
   return 0;
 }
