@@ -1,6 +1,6 @@
 #!/bin/make
 
-program:  program.o BradGooch.o JoshuaYuan.o FrankWillmore.o DanAbeln.o BrentCovele.o NikosVergos.o ScottAlmond.o JakeFisher.o prototypes.h 
+program:  program.o BradGooch.o JoshuaYuan.o FrankWillmore.o DanAbeln.o BrentCovele.o NikosVergos.o ScottAlmond.o JakeFisher.o YongCho.o prototypes.h 
 	gcc -o program *.o
 
 FrankWillmore.o:  FrankWillmore.c prototypes.h
@@ -29,6 +29,9 @@ JakeFisher.o: JakeFisher.c prototypes.h
 
 JamesAydemir.o: JamesAydemir.c prototypes.h
 	gcc -c JamesAydemir.c
+
+YongCho.o: YongCho.c prototypes.h
+	gcc -c YongCho.c
 
 clean:  
 	rm -f *.o
