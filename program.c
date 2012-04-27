@@ -26,5 +26,7 @@ int main(int argc, char *argv[])
 
   fn_YongCho();
 
+  fn_EminCelik();
+
   return 0;
 }
