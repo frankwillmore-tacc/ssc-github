@@ -38,6 +38,9 @@ EminCelik.o:  EminCelik.c prototypes.h
 
 CharlesLena.o:  CharlesLena.c prototypes.h
 	gcc -c CharlesLena.c
+	
+JuliaDay.o: JuliaDay.c prototypes.h
+	gcc -c JuliaDay.c
 
 clean:  
 	rm -f *.o

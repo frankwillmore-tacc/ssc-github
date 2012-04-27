@@ -14,3 +14,4 @@ void fn_JamesAydemir();
 void fn_YongCho();
 void fn_EminCelik();
 void fn_CharlesLena();
+void fn_JuliaDay();
