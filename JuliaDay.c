@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "prototypes.h"
 
-void fn_EminCelik()
+void fn_JuliaDay()
 {
-  printf("Emin Celik gets credit.\n");
+  printf("Julia Day gets credit.\n");
 }
 
