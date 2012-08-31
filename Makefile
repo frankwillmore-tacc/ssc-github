@@ -1,49 +1,10 @@
 #!/bin/make
 
-program:  program.o BradGooch.o JuliaDay.o  BrianAbel.o  JoshuaYuan.o FrankWillmore.o DanAbeln.o BrentCovele.o NikosVergos.o ScottAlmond.o JakeFisher.o JamesAydemir.o  YongCho.o EminCelik.o CharlesLena.o prototypes.h 
+program:  program.o FrankWillmore.o prototypes.h 
 	gcc -o program *.o
 
 FrankWillmore.o:  FrankWillmore.c prototypes.h
 	gcc -c FrankWillmore.c
-
-JoshuaYuan.o: JoshuaYuan.c prototypes.h
-	gcc -c JoshuaYuan.c
-
-BrianAbel.o: BrianAbel.c prototypes.h
-	gcc -c BrianAbel.c
-
-DanAbeln.o: DanAbeln.c prototypes.h
-	gcc -c DanAbeln.c
-
-BradGooch.o: BradGooch.c prototypes.h
-	gcc -c BradGooch.c
-
-BrentCovele.o: BrentCovele.c prototypes.h
-	gcc -c BrentCovele.c
-
-NikosVergos.o: NikosVergos.c prototypes.h
-	gcc -c NikosVergos.c
-
-ScottAlmond.o: ScottAlmond.c prototypes.h
-	gcc -c ScottAlmond.c
-
-JakeFisher.o: JakeFisher.c prototypes.h
-	gcc -c JakeFisher.c
-
-JamesAydemir.o: JamesAydemir.c prototypes.h
-	gcc -c JamesAydemir.c
-
-YongCho.o: YongCho.c prototypes.h
-	gcc -c YongCho.c
-
-EminCelik.o:  EminCelik.c prototypes.h
-	gcc -c EminCelik.c
-
-CharlesLena.o:  CharlesLena.c prototypes.h
-	gcc -c CharlesLena.c
-	
-JuliaDay.o: JuliaDay.c prototypes.h
-	gcc -c JuliaDay.c
 
 clean:  
 	rm -f *.o
