@@ -1,6 +1,0 @@
-Copied and renamed the following files to make my program.
-Renamed program.c to 'program_cfax.c'
-Renamed FrankWillmore.c to 'cfaxon.c'
-Renamed prototypes.h to 'prototypes_cfax.h'
-Renamed Makefile to 'Makefile_cfax.mk' to be used with the command 'make -f Makefile_cfax.mk'
-
