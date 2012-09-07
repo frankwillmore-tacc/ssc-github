@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
   fn_ArinaRostopchina();
   fn_NancyLe();
   fn_NinaLe();
+  fn_KimberlyHarvey();
 
 return 0;
 }
