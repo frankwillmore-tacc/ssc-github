@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
   fn_NancyLe();
   fn_NinaLe();
   fn_KimberlyHarvey();
+  fn_FelipeLopez();
 
 return 0;
 }
