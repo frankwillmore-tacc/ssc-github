@@ -1,7 +1,7 @@
 #!/bin/make
 
 
-program:  program.o NancyLe.o ArinaRostopchina.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o prototypes.h 
+program:  program.o NancyLe.o ArinaRostopchina.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o prototypes.h 
 
 
 NancyLe.o: NancyLe.c prototypes.h
@@ -30,6 +30,9 @@ KimberlyHarvey.o: KimberlyHarvey.c prototypes.h
 
 FelipeLopez.o: FelipeLopez.c prototypes.h
 	gcc -c FelipeLopez.c
+
+AlexAur.o: AlexAur.c prototypes.h
+	gcc -c AlexAur.c
 
 clean:  
 	rm -f *.o
