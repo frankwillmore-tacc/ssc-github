@@ -1,8 +1,10 @@
 #!/bin/make
 
 
-program: program.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o prototypes.h
+program: program.o KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o prototypes.h
 
+KevinBaldridge.o: KevinBaldridge.c prototypes.h
+	gcc -c KevinBaldridge.c
 
 NancyLe.o: NancyLe.c prototypes.h
 	gcc -c NancyLe.c
