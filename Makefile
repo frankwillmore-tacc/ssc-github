@@ -1,7 +1,13 @@
 #!/bin/make
 
 
-program: program.o KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o prototypes.h
+program: program.o DanFagnant.o KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o JohnSim.o prototypes.h 
+
+DanFagnant.o: DanFagnant.c prototypes.h
+	gcc -c DanFagnant.c
+
+RayFullon.o: RayFullon.c prototypes.h
+	gcc -c RayFullon.c
 
 KevinBaldridge.o: KevinBaldridge.c prototypes.h
 	gcc -c KevinBaldridge.c
@@ -45,6 +51,14 @@ KamHonHoi.o: KamHonHoi.c prototypes.h
 DanielDykstra.o: DanielDykstra.c prototypes.h
 	gcc -c DanielDykstra.c
 
+PaiYuChen.o: PaiYuChen.c prototypes.h
+	gcc -c PaiYuChen.c
+
+LilyNguyen.o: LilyNguyen.c prototypes.h
+	gcc -c LilyNguyen.c
+
+JohnSim.o: JohnSim.c prototypes.h
+	gcc -c JohnSim.c
 clean:  
 	rm -f *.o
 	rm program
