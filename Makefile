@@ -1,20 +1,3 @@
-<<<<<<< HEAD:Makefile
-#!/bin/make
-
-program:  program.o AlexandraWoldman.o ArinaRostopchina.o prototypes.h 
-	gcc -o program *.o
-
-AlexandraWoldman.o:  AlexandraWoldman.c prototypes.h
-	gcc -c AlexandraWoldman.c
-
-ArinaRostopchina.o:  ArinaRostopchina.c prototypes.h
-	gcc -c ArinaRostopchina.c
-
-clean:  
-	rm -f *.o
-	rm program
-
-=======
 #!/bin/make
 
 
@@ -65,5 +48,3 @@ DanielDykstra.o: DanielDykstra.c prototypes.h
 clean:  
 	rm -f *.o
 	rm program
-
->>>>>>> 565c117bc7144e2488b87857787d3e42d0681ad0:Makefile
