@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
 
   // add your function here
   fn_FrankWillmore();
+  fn_ZohaibMomin();
   fn_AlexandraWoldman();
   fn_BenSchilling(); 
   fn_MatthewBishop();
