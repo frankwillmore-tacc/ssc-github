@@ -21,5 +21,6 @@ int main(int argc, char *argv[])
   fn_DanielDykstra();
   fn_KevinBaldridge();
   fn_RayFullon();
+  fn_PaiYuChen();
 return 0;
 }
