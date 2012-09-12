@@ -4,6 +4,7 @@
 
 // add your prototype here.
 
+void fn_DanFagnant();
 void fn_FrankWillmore();
 void fn_BenSchilling();
 void fn_MatthewBishop();
