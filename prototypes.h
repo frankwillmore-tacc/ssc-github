@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 // add your prototype here.
-
+void fn_ZohaibMomin();
 void fn_DanFagnant();
 void fn_FrankWillmore();
+void fn_HollyHatfield();
 void fn_BenSchilling();
 void fn_MatthewBishop();
 void fn_BradyStoll();

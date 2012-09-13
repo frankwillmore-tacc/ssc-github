@@ -1,7 +1,12 @@
 #!/bin/make
 
+program: program.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o DanFagnant.o KevinBaldridge.o NancyLe.o JohnSim.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
 
-program: program.o DanFagnant.o KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o JohnSim.o prototypes.h 
+HollyHatfield.o: HollyHatfield.c prototypes.h
+	gcc -c HollyHatfield.c
+
+ZohaibMomin.o: ZohaibMomin.c prototypes.h
+	gcc -c ZohaibMomin.c
 
 DanFagnant.o: DanFagnant.c prototypes.h
 	gcc -c DanFagnant.c

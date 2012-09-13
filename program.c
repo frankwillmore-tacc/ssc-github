@@ -6,8 +6,10 @@ int main(int argc, char *argv[])
   printf("This project is managed with git. \n");
 
   // add your function here
+  fn_HollyHatfield();
   fn_DanFagnant();
   fn_FrankWillmore();
+  fn_ZohaibMomin();
   fn_AlexandraWoldman();
   fn_BenSchilling(); 
   fn_MatthewBishop();
