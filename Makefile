@@ -2,7 +2,12 @@
 
 
 <<<<<<< HEAD:Makefile
-program: program.o ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
+program: program.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o 
+NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o 
+FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
+
+HollyHatfield.o: HollyHatfield.c prtotypes.h
+	gcc -c HollyHatfield.c
 
 ZohaibMomin.o: ZohaibMomin.c prototypes.h
 	gcc -c ZohaibMomin.c

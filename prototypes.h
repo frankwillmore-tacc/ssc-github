@@ -10,6 +10,7 @@ void fn_ZohaibMomin();
 void fn_DanFagnant();
 >>>>>>> 5adc624372fafb2a73a47414b03ccdf17a43311c:prototypes.h
 void fn_FrankWillmore();
+void fn_HollyHatfield();
 void fn_BenSchilling();
 void fn_MatthewBishop();
 void fn_BradyStoll();
