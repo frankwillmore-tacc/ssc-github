@@ -1,22 +1,15 @@
 #!/bin/make
 
+program: program.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o DanFagnant.o KevinBaldridge.o NancyLe.o JohnSim.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
 
-<<<<<<< HEAD:Makefile
-program: program.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o 
-NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o 
-FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
-
-HollyHatfield.o: HollyHatfield.c prtotypes.h
+HollyHatfield.o: HollyHatfield.c prototypes.h
 	gcc -c HollyHatfield.c
 
 ZohaibMomin.o: ZohaibMomin.c prototypes.h
 	gcc -c ZohaibMomin.c
-=======
-program: program.o DanFagnant.o KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o JohnSim.o prototypes.h 
 
 DanFagnant.o: DanFagnant.c prototypes.h
 	gcc -c DanFagnant.c
->>>>>>> 5adc624372fafb2a73a47414b03ccdf17a43311c:Makefile
 
 RayFullon.o: RayFullon.c prototypes.h
 	gcc -c RayFullon.c
