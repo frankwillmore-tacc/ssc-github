@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-// add your prototype here.
+void fn_SeanRogers();// add your prototype here.
 void fn_ZohaibMomin();
 void fn_DanFagnant();
 void fn_FrankWillmore();
