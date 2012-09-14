@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
   fn_SeanRogers();
 =======
   fn_DmitriyZhukov();
+  fn_ChrisSmith();
 
 >>>>>>> 054d212f0ac4388b2dfd2043d7422aede3443527:program.c
 return 0;
