@@ -28,6 +28,11 @@ int main(int argc, char *argv[])
   fn_PaiYuChen();
   fn_LilyNguyen();
   fn_JohnSim();
+<<<<<<< HEAD:program.c
   fn_SeanRogers();
+=======
+  fn_DmitriyZhukov();
+
+>>>>>>> 054d212f0ac4388b2dfd2043d7422aede3443527:program.c
 return 0;
 }
