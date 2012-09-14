@@ -25,3 +25,4 @@ void fn_PaiYuChen();
 void fn_LilyNguyen();
 void fn_JohnSim();
 void fn_DmitriyZhukov();
+void fn_LiangSun();

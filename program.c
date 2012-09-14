@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
   fn_LilyNguyen();
   fn_JohnSim();
   fn_DmitriyZhukov();
+  fn_LiangSun();
 
 return 0;
 }
