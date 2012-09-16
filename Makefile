@@ -1,6 +1,9 @@
 #!/bin/make
 
-program: program.o ChrisSmith.o DmitriyZhukov.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o DanFagnant.o KevinBaldridge.o NancyLe.o JohnSim.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
+program: program.o EnricaQuartini.o ChrisSmith.o DmitriyZhukov.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o DanFagnant.o KevinBaldridge.o NancyLe.o JohnSim.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o prototypes.h
+
+EnricaQuartini.o: EnricaQuartini.c prototypes.h
+	gcc -c EnricaQuartini.c
 
 HollyHatfield.o: HollyHatfield.c prototypes.h
 	gcc -c HollyHatfield.c
@@ -64,16 +67,12 @@ LilyNguyen.o: LilyNguyen.c prototypes.h
 
 JohnSim.o: JohnSim.c prototypes.h
 	gcc -c JohnSim.c
-<<<<<<< HEAD:Makefile
-SeanRogers.o: SeanRogers.c prototypes.c
-	gcc -c SeanRogers.c
-=======
 
 DmitriyZhukov.o: DmitriyZhukov.c prototypes.h
 	gcc -c DmitriyZhukov.c
 
 ChrisSmith.o: ChrisSmith.c prototypes.h
-	ggc -c ChrisSmith.c
+	gcc -c ChrisSmith.c
 
 clean:  
 >>>>>>> 054d212f0ac4388b2dfd2043d7422aede3443527:Makefile
