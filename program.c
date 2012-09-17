@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
 
  
   // add your function here
+  fn_JoshuaBantseev();
   fn_EnricaQuartini();
   fn_HollyHatfield();
   fn_DanFagnant();
@@ -31,6 +32,7 @@ int main(int argc, char *argv[])
   fn_JohnSim();
   fn_DmitriyZhukov();
   fn_LiangSun();
+  fn_SeanRogers();
   fn_ChrisSmith();
 
 

@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 //add your prototype here
+void fn_JoshuaBantseev();
 void fn_EnricaQuartini();
 void fn_ZohaibMomin();
 void fn_DanFagnant();
