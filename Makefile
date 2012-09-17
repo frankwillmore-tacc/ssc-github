@@ -75,6 +75,6 @@ ChrisSmith.o: ChrisSmith.c prototypes.h
 	gcc -c ChrisSmith.c
 
 clean:  
->>>>>>> 054d212f0ac4388b2dfd2043d7422aede3443527:Makefile
 	rm -f *.o
 	rm program
+
