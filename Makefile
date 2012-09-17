@@ -64,7 +64,10 @@ LilyNguyen.o: LilyNguyen.c prototypes.h
 
 JohnSim.o: JohnSim.c prototypes.h
 	gcc -c JohnSim.c
+
 SeanRogers.o: SeanRogers.c prototypes.c
 	gcc -c SeanRogers.c
+
+clean:
 	rm -f *.o
 	rm program
