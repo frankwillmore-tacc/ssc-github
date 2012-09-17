@@ -1,8 +1,9 @@
 // prototypes.h
 
 #include <stdio.h>
-
-void fn_SeanRogers();// add your prototype here.
+//add your prototype here
+void fn_JoshuaBantseev();
+void fn_EnricaQuartini();
 void fn_ZohaibMomin();
 void fn_DanFagnant();
 void fn_FrankWillmore();
@@ -25,4 +26,6 @@ void fn_PaiYuChen();
 void fn_LilyNguyen();
 void fn_JohnSim();
 void fn_DmitriyZhukov();
+void fn_LiangSun();
 void fn_ChrisSmith();
+
