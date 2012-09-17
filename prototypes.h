@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-// add your prototype here.
+void fn_EnricaQuartini();// add your prototype here
 void fn_ZohaibMomin();
 void fn_DanFagnant();
 void fn_FrankWillmore();
@@ -25,4 +25,8 @@ void fn_PaiYuChen();
 void fn_LilyNguyen();
 void fn_JohnSim();
 void fn_DmitriyZhukov();
+<<<<<<< HEAD
 void fn_LiangSun();
+=======
+void fn_ChrisSmith();
+>>>>>>> 0bbce53541d55b7288dea20d60f9988def28db1a

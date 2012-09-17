@@ -2,6 +2,6 @@
 
 void fn_FrankWillmore()
 {
-  printf("Frank Willmore gets credit for assignment #1.\n");
+  printf("Sean Rogers gets credit for assignment #1.\n");
 }
 
