@@ -74,7 +74,10 @@ DmitriyZhukov.o: DmitriyZhukov.c prototypes.h
 ChrisSmith.o: ChrisSmith.c prototypes.h
 	gcc -c ChrisSmith.c
 
-clean:  
+SeanRogers.o: SeanRogers.c prototypes.c
+	gcc -c SeanRogers.c
+
+clean:
 	rm -f *.o
 	rm program
 
