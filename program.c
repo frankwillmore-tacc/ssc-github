@@ -30,12 +30,9 @@ int main(int argc, char *argv[])
   fn_LilyNguyen();
   fn_JohnSim();
   fn_DmitriyZhukov();
-<<<<<<< HEAD
   fn_LiangSun();
-=======
   fn_ChrisSmith();
 
->>>>>>> 0bbce53541d55b7288dea20d60f9988def28db1a
 
 return 0;
 }
