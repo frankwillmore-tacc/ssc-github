@@ -73,7 +73,6 @@ JohnSim.o: JohnSim.c prototypes.h
 DmitriyZhukov.o: DmitriyZhukov.c prototypes.h
 	gcc -c DmitriyZhukov.c
 
-
 LiangSun.o: LiangSun.c prototypes.h
 	gcc -c LiangSun.c
 
@@ -86,4 +85,6 @@ SeanRogers.o: SeanRogers.c prototypes.h
 JoshuaBantseev.o: JoshuaBantseev.c prototypes.h
 	gcc -c JoshuaBantseev.c
 
+clean:
+	rm -rf *.o program
 
