@@ -1,8 +1,10 @@
 #!/bin/make
 
 
-program: program.o SeanRogers.o JoshuaBantseev.o ChrisSmith.o EnricaQuartini.o DmitriyZhukov.o HollyHatfield.o  ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o DanFagnant.o KevinBaldridge.o NancyLe.o JohnSim.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o LiangSun.o prototypes.h
+program: program.o SeanRogers.o JoshuaBantseev.o ChrisSmith.o EnricaQuartini.o DmitriyZhukov.o HollyHatfield.o  DariaSydykova.o ZohaibMomin.o  KevinBaldridge.o NancyLe.o ArinaRostopchina.o BenSchilling.o MatthewBishop.o DanFagnant.o KevinBaldridge.o NancyLe.o JohnSim.o FrankWillmore.o AlexandraWoldman.o BradyStoll.o NinaLe.o KimberlyHarvey.o FelipeLopez.o AlexAur.o KamHonHoi.o DanielDykstra.o RayFullon.o PaiYuChen.o LilyNguyen.o LiangSun.o prototypes.h
 
+DariaSydykova.o: DariaSydykova.c prototypes.h
+	gcc -c DariaSydykova.c
 
 EnricaQuartini.o: EnricaQuartini.c prototypes.h
 	gcc -c EnricaQuartini.c
